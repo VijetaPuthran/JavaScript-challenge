@@ -28,6 +28,7 @@ button.on("click", runEnter);
 
 // Complete the event handler function 
 function runEnter(){
+    
     //prevent the page from refreshing
     d3.event.preventDefault();
     deleteTbody();
